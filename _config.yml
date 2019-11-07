@@ -7,9 +7,9 @@ collections:
 layout_style: overflow
 palette: blue
 header:
-  title: Stackbit Fresh
+  title: Tim Carlock's Website
   tagline: Header Tagline
-  profile_img: images/avatar.png
+  profile_img: images/IMG_4136.jpg
   bg: dark
   has_nav: true
   has_social: true
