@@ -11,18 +11,19 @@ content_img_caption: >-
 layout: post
 ---
 
-I'm always surprised when a managers can't answer a fairly straightforward question: what's your personal philosophy of management? In other words, they can't describe the fundamental beliefs and priorities that shape their daily actions and decisions related to strategy, hiring, project staffing and team/organization design?
+I'm always surprised when a manager can't answer a fairly straightforward question: what's your personal philosophy of management? In other words, they can't describe the fundamental beliefs and priorities that shape their daily actions and decisions related to strategy, hiring, project staffing and team/organization design?
 
 This has occurred about as often with experienced managers as compared to first-time managers who haven't had the length and breadth of experience needed to formulate a coherent and resilient philosophy. This is really unfortunate given the leverage that managers wield over the people on their team(s) and the impact–good or bad–that teams have on the organization.
 
-So with that being said, here is the philosophy I've cobbled together over the years. Much of this borrows from and is inspired by thinkers and writers far more experienced and eloquent than me. Wherever possible, I'll cite prior work.
+Here's the philosophy I've cobbled together over the years. Much of this borrows from and is inspired by thinkers and writers far more experienced and eloquent than me. Wherever possible, I'll cite prior work.
 
 ### Core Objectives
-These are pretty self-explanatory, but in general there are three things that I'm always trying to optimize for:
+Although every project and team I've lead has it's own unique set of goals, there are four things I'm fundamentally optimizing for at all times:
 
-* Velocity of execution
+* Job satisfaction - How satisfied is every person on the team with the team culture, his or her project assignments, growth opportunities etc.
+* Velocity of execution - This is a very hard thing to quantitatively measure,a nd unfortunately, many companies end up measuring something arbitrary like number of diffs per unit of time. Despite this challenge, it's crtitical that 
 * Consistency and quality of results
-* Efficiency of resource utilization
+* Efficiency of time utilization
 
 ### The Four Tenets
 For all actions and decisions, I think of everything in these four tenets:

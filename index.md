@@ -33,9 +33,5 @@ sections:
     actions:
       - label: View Blog
         url: blog/index.html
-menus:
-  main:
-    weight: 1
-    title: Home
 layout: home
 ---

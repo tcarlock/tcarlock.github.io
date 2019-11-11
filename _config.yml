@@ -6,6 +6,16 @@ collections:
     permalink: '/posts/:title/'
 layout_style: overflow
 palette: blue
+menus:
+  main:
+    - title: Home
+      weight: 1
+    - title: Blog
+      weight: 2
+    - title: About
+      weight: 3
+    - title: Contact
+      weight: 4
 header:
   show_title: false
   title: Hi, I'm Tim Carlock
@@ -26,7 +36,6 @@ sass:
   style: nested
   precision: 10
 plugins:
-  - jekyll-menus
 exclude:
   - Gemfile
   - Gemfile.lock
