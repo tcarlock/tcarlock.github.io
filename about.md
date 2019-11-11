@@ -1,7 +1,5 @@
 ---
 title: About Me
-subtitle: This is a short page about me and my work.
-img_path: images/about.jpg
 menus:
   main:
     weight: 4
@@ -9,12 +7,10 @@ menus:
 layout: page
 ---
 
-**John Doe** is a Senior Art Director from [Stockholm](https://en.wikipedia.org/wiki/Stockholm), Sweden. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+I grew up in the midwest where I studied and worked in investment finance 
+before starting a B2B software company. I then moved to San Francisco where I spent 8 years and transitioned 
+into consumer tech as an early(ish) employee of Uber. In late 2018, I decided to quit putting off a move to NYC.
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2019.
-
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
-
-As a hobby, John Doe authors the most influential design blog in Sweden with over 100,000 page views a month. He lives in Stockholm with his beautiful wife and two boys.
-
-*Thank You for reading!*
+Outside of work, I love traveling and experiencing new foods, and I'm forcing myself to spend more time reading. I enjoy running, 
+but my activity of choice is Muay Thai, which I've trained for 7 years in the US and Thailand. Yes, I do occasionally 
+compete.

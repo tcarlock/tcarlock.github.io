@@ -10,14 +10,16 @@
         </p><!-- .profile -->
         {% endif %}
         <div class="site-identity">
-          {% if page.layout == 'home' or page.layout == 'blog' %}
-          <h1 class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></h1>
-          {% else %}
-          <p class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></p>
+          {% if site.header.show_title %}
+            {% if page.layout == 'home' or page.layout == 'blog' %}
+              <h1 class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></h1>
+            {% else %}
+              <p class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></p>
+            {% endif %}
           {% endif %}
           {% assign tagline_is_not_empty = site.header.tagline | is_not_empty %}
-          {% if tagline_is_not_empty %}
-          <p class="site-description">{{ site.header.tagline }}</p>
+          {% if site.header.show_tagline && tagline_is_not_empty %}
+            <p class="site-description">{{ site.header.tagline }}</p>
           {% endif %}
         </div><!-- .site-identity -->
         {% if site.menus.main and site.header.has_nav %}
