@@ -35,7 +35,6 @@ sass:
   indentWidth: 4
   style: nested
   precision: 10
-plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
