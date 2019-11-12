@@ -1,5 +1,9 @@
 ---
 title: Home
+menus:
+  main:
+    weight: 1
+    title: Home
 sections:
   - section_id: hero
     component: hero_block.html
