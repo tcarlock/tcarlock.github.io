@@ -34,4 +34,6 @@ sections:
       - label: View Blog
         url: blog/index.html
 layout: home
+pagination: 
+  enabled: true
 ---

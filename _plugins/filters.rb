@@ -59,51 +59,6 @@ module Stackbit
       return Object.send(:sprintf, format, argument)
     end
 
-    def get_page(page_path)
-
-      site = @context.registers[:site]
-      relative_page_path = page_path.sub(/^\//, '')
-      relative_page_parts = relative_page_path.split('/')
-
-      if site.collections.key?(relative_page_parts[0])
-        if relative_page_parts.length > 2
-          raise ArgumentError, "get_page can not have sub-folders inside collection folder, received #{page_path}"
-        end
-        return site.collections[relative_page_parts[0]].docs.find do |doc|
-          if doc.data.key?("slug") && doc.data.key?("ext")
-            doc.data["slug"] + doc.data["ext"] == relative_page_parts[1]
-          else
-            doc.basename == relative_page_parts[1]
-          end
-        end
-      else
-        return site.pages.find { |page| page.relative_path == relative_page_path }
-      end
-
-    end
-
-    def get_pages(folder_path)
-
-      site = @context.registers[:site]
-
-      relative_folder_path = folder_path.sub(/^\//, '').sub(/\/$/, '')
-      if relative_folder_path == ""
-        relative_folder_path = "."
-      end
-
-      relative_folder_parts = relative_folder_path.split('/')
-
-      if site.collections.key?(relative_folder_parts[0])
-        if relative_folder_parts.length != 1
-          raise ArgumentError, "get_pages can not have sub-folders inside collection folder, received #{folder_path}"
-        end
-        return site.collections[relative_folder_parts[0]].docs
-      else
-        return site.pages.select { |page| File.dirname(page.path).sub(/^\//, '').sub(/\/$/, '') == relative_folder_path }
-      end
-
-    end
-
     class Cycler < Liquid::Drop
 
       def initialize(values)

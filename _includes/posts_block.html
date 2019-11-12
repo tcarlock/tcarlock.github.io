@@ -1,10 +1,7 @@
 <section id="{{ include.section.section_id }}" class="block">
   <h2 class="block-title underline">{{ include.section.title }}</h2>
   <div class="post-feed">
-    {% assign display_posts = '/posts' | get_pages | sort: 'date' | reverse %}
-    {% assign slice_length = include.section.num_posts_displayed | minus: 0 %}
-    {% assign recent_posts = display_posts | slice: 0, slice_length %}
-    {% for post in recent_posts %}
+    {% for post in paginator.posts %}
     <article class="post">
       <div class="post-inside">
         {% assign thumb_img_path_is_not_empty = post.thumb_img_path | is_not_empty %}
