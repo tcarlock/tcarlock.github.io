@@ -1,9 +1,5 @@
 ---
 title: About Me
-menus:
-  main:
-    weight: 4
-    title: About
 layout: page
 ---
 
