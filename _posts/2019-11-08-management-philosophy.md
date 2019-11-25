@@ -2,13 +2,14 @@
 title: My Philosophy for Engineering Management
 excerpt: >-
   Considering the leverage managers have over the careers of the people on their team and the results of the team's work, managers must 
-  develop a coherent set of guiding principles for their decisions. These are mine.
+  have a coherent set of guiding principles for their decisions. This is mine.
 date: '2019-11-08'
 thumb_img_path: images/5d6fdc0b2e22af38c76b8776.jpeg
 content_img_path: images/5d6fdc0b2e22af38c76b8776.jpeg
 content_img_caption: >-
   I have a strange appreciation for terrible business-oriented stock photography. It's an art form in the same vein as The Room, so let's take a minute to appreciate the gem above.
 layout: post
+published: true
 ---
 
 I'm always surprised when a manager can't answer a fairly straightforward question: what's your personal philosophy of management? In other words, they can't describe the fundamental beliefs and priorities that shape their daily actions and decisions related to strategy, hiring, project staffing and team/organization design?

@@ -9,13 +9,13 @@ palette: blue
 menus:
   main:
     - title: Home
-      weight: 1
-    - title: Blog
-      weight: 2
+      url: '/'
     - title: About
-      weight: 3
+      url: '/about'
+    - title: Blog
+      url: '/blog'
     - title: Contact
-      weight: 4
+      url: '/contact'
 header:
   show_title: false
   title: Hi, I'm Tim Carlock
