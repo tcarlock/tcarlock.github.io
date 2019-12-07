@@ -9,7 +9,7 @@ content_img_path: images/5d6fdc0b2e22af38c76b8776.jpeg
 content_img_caption: >-
   I have a strange appreciation for terrible business-oriented stock photography. It's an art form in the same vein as The Room, so let's take a minute to appreciate the gem above.
 layout: post
-published: true
+published: false
 ---
 
 I'm always surprised when a manager can't answer a fairly straightforward question: what's your personal philosophy of management? In other words, they can't describe the fundamental beliefs and priorities that shape their daily actions and decisions related to strategy, hiring, project staffing and team/organization design?
