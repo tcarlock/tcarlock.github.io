@@ -6,7 +6,7 @@ sections:
     type: heroblock
     content: >-
       Currently based in NYC, I'm a engineering leader with interest in entrepreneurship and business strategy, 
-      user-interface design and martial arts.
+      user-interface design and Muay Thai.
   - section_id: about
     component: content_block.html
     type: contentblock
